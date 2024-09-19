@@ -4,6 +4,7 @@
 int main() {
 
     int v;
+    int m;
 
     // Llama a las 3 funciones
     funcion1();
