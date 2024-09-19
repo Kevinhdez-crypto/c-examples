@@ -9,9 +9,12 @@ int main() {
     funcion1();
     funcion2(5, 2.67);
     v = funcion3(10);
+    m = funcion4(10); // se llama a la funcion 4 que se solicitaba
 
     // Imprime el valor que retornó funcion3()
     printf("v = %d\n", v);
+    //se imprime el valor que retorna la funcion 4
+    printf("m = %d\n", m);
 
     return 0;
 
@@ -42,3 +45,11 @@ int funcion4(int x) {
     printf("En funcion4()");
     return x;
 }
+}
+//creacion de la funcion 4 que se pidio
+int funcion4(int x) {
+    printf("En funcion4()...\n");
+    int y = x - 2;
+    return y;
+}
+
