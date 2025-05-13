@@ -52,14 +52,7 @@ int funcion3(int x) {
     return y;
 }
 
-int funcion5(int x) {
-    printf("en funcion5");
-int funcion4(int x) {
-    printf("En funcion4()");
-    return x;
-}
 
-}
 //creacion de la funcion 4 que se pidio
 int funcion4(int x) {
     printf("En funcion4()...\n");
